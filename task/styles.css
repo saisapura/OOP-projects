@@ -1,0 +1,70 @@
+body {
+    /* Setting font family and centering content on the page */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; /* Background color of the page */
+}
+
+.task-container {
+    /* Styling for the task container (background color, border, shadow, width, padding) */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for form elements (input, select, button) */
+.task-form input[type="text"],
+.task-form select,
+.task-form input[type="date"] {
+    /* Setting width, padding, margin, border, and border radius */
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling for the add task button */
+.task-form button {
+    /* Button background color, text color, border, border radius, padding, cursor, and transition effect */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-form button:hover {
+    /* Button background color change on hover */
+    background-color: #45a049;
+}
+
+/* Styling for task list items */
+.task-list li {
+    /* Styling list items (flex layout, space between, padding, border) */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Border between list items */
+}
+
+/* Styling for the delete button */
+.delete-btn {
+    /* Delete button background color, text color, border, border radius, cursor */
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

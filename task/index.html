@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking the CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Title of the webpage -->
+    <title>Task Management System</title>
+</head>
+
+<body>
+    <!-- Task Management System container -->
+    <div class="task-container">
+        <!-- Form for adding tasks with input fields for task, category, priority, and due date -->
+        <div class="task-form">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <select id="task-category">
+                <!-- Options for task categories (work, personal, shopping) -->
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                <option value="shopping">Shopping</option>
+            </select>
+            <!-- Options for task priorities (high, medium, low) -->
+            <select id="task-priority">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <!-- Input field for task due date -->
+            <input type="date" id="due-date">
+            <!-- Button to add a new task -->
+            <button id="add-task-btn">Add Task</button>
+        </div>
+        <!-- Task list container -->
+        <ul id="task-list"></ul>
+    </div>
+    <!-- Linking the JavaScript file for interactivity -->
+    <script src="script.js"></script>
+</body>
+
+</html>
