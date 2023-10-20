@@ -38,7 +38,7 @@ body {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 5px 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -59,12 +59,18 @@ body {
     border-bottom: 1px solid #ddd; /* Border between list items */
 }
 
-/* Styling for the delete button */
-.delete-btn {
-    /* Delete button background color, text color, border, border radius, cursor */
+/* Styling for the delete and edit buttons */
+.delete-btn,
+.edit-btn {
+    /* Button background color, text color, border, border radius, cursor */
     background-color: #f44336;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.overdue {
+    /* Style for overdue tasks (red text color) */
+    color: red;
 }
